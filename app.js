@@ -193,18 +193,18 @@ Complete the exercise in the space below:
 
 function basicCalculator(num1, num2, sign) {
     if (sign === "add") {
-        return (num1 + num2);
+        return num1 + num2
     } else if (sign === "subtract") {
-        return (num1 - num2)
+        return num1 - num2
     } else if (sign === "multiply") {
-        return (num1 * num2) 
+        return num1 * num2
     } else if (sign === "divide") {
-        return (num1 / num2)
+        return num1 / num2
     }
 }
 
 
-console.log('Exercise 9 Result:', basicCalculator(20, 5, "add"));
+console.log('Exercise 9 Result:', basicCalculator(10, 7, "multiply"));
 
 /*
 Exercise 10: calculateGrade()
@@ -235,7 +235,7 @@ function calculateGrade(number) {
     }
 }
 
-console.log('Exercise 10 Result:', calculateGrade(65));
+console.log('Exercise 10 Result:', calculateGrade(90));
 
 
 /*
@@ -254,13 +254,13 @@ Example: createUsername('Samantha', 'Green') should return 'SamGre13'.
 Complete the exercise in the space below:
 */
 
-function createUsername(firstName, secondName, sumNum) {
-    if ()
-}
+// function createUsername(firstName, secondName, sumNum) {
+//     if ()
+// }
 
+// !
 
-
-console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
+// console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
 
 /*
 Exercise 12: numArgs()
@@ -271,6 +271,6 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
+// !
 
-
-console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
+// console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
